@@ -1,1 +1,5 @@
 # NIDS_Discovery
+
+## Overview
+
+This repository was created as a successor to my university capstone project. In my capstone project, I worked with my team to analyze the impact of adversarial attacks on neural networks, and their feasibility in a networking context. My capstone project used a revised version of the CSE-CIC-IDS2018 dataset, which consisted of a set of CSV files containing flow records, features and labels. In this project, my aim is to make a revised and optimized version of the models, while also introducing functionality to convert packet captures into features that can then be fed through the neural networks. While this will not be anywhere near a functional NIDS for practical use, it will be interesting to be able to generate adversarial attacks on packets, see whether they remain valid in a networking context, and get a live result on how the detection may change as a result of the attacks.
