@@ -5,26 +5,26 @@
 
 ## File Structure
 
+Base imports and global variables:
+
 > vars.py
 
-Base imports and global variables
+Script parameter parsing and handling:
 
 > wrapper.py
 
-Script parameter parsing and handling
+Packet to feature conversion:
 
 > pkt_conversion.py
 
-Packet to feature conversion
+Feature performance and count analysis (RFE, PCA, etc.):
 
 > feature_analysis.py
 
-Feature performance and count analysis (RFE, PCA, etc.)
+Training a new model, loading an existing model, and testing detection:
 
 > model_operations.py
 
-Training a new model, loading an existing model, and testing detection
+Parsing and analyzing model detection results:
 
 > result_display.py
-
-Parsing and analyzing model detection results
